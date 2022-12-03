@@ -13,8 +13,6 @@ export default async function handler(req, res) {
   });
 
   if (response.ok) {
-    console.log(API_END_POINT);
-    console.log(response);
     const data = await response.json();
     res.status(200).json(data);
   }
