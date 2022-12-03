@@ -1,0 +1,22 @@
+{
+  "name": "serverless-example-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kal-MH/serverless-example-vercel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kal-MH/serverless-example-vercel/issues"
+  },
+  "homepage": "https://github.com/Kal-MH/serverless-example-vercel#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
