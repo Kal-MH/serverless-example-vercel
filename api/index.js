@@ -7,10 +7,13 @@ export default async function handler(req, res) {
 
   const response = await fetch(API_END_POINT, {
     headers: {
+      "Content-Type": "application/json",
       "x-username": username,
     },
   });
-  const data = await response.json();
 
-  res.status(200).json(data);
+  if (response.ok) {
+    const data = await response.json();
+    res.status(200).json(data);
+  }
 }
