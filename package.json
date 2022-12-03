@@ -16,8 +16,8 @@
     "url": "https://github.com/Kal-MH/serverless-example-vercel/issues"
   },
   "homepage": "https://github.com/Kal-MH/serverless-example-vercel#readme",
+  "type": "module",
   "dependencies": {
-    "node-fetch": "^3.3.0"
-  },
-  "type": "module"
+    "node-fetch": "^2.6.7"
+  }
 }
